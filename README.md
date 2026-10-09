@@ -10,7 +10,9 @@ It also *attempts* to fix pitch bends when importing files back into FL Studio -
 The script goes through the file, re-encodes the tracks with running status, deletes duplicate tempo change events, pitch events and the time signature metadata (FL only exports 4/4 no matter what)
 It then checks how far pitch bends go in each channel, and if it does not exceed 200 cents (2 semitones) up or down it will set the MIDI's RPN to 2, otherwise it will keep the RPN set by FL (12)
 Finally it merges track 0 with track 1 to make one single conductor track (SMT standard) so the actual tracks with content start at 1 instead of 2.
+
 Each step can be overridden with flags.
+
 There are additional flags you can use to add metadata to your files which you cannot do from FL (Name, Copyright and additional text)
 
 ### Why I made this and what FL does
