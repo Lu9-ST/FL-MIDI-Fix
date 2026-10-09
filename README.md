@@ -3,6 +3,7 @@ Cleans up FL Studio MIDI exports
 
 ## What does this do?
 This script strips out redundant and unnecessary commands/events/data from MIDI files exported from FL Studio (any version) without affecting playback and resulting in a **significantly smaller file**.
+
 It also *attempts* to fix pitch bends when importing files back into FL Studio - if bends don't go beyond 2 semitones (up or down) then your MIDI will be imported correctly into FL with bends preserved, otherwise they'll get shrunken.
 
 ### In greater detail
@@ -14,6 +15,7 @@ There are additional flags you can use to add metadata to your files which you c
 
 ### Why I made this and what FL does
 FL studio is fucking stupid
+
 Exports RPN 12 but when importing always assumes RPN 2
 
 ## Credits
