@@ -34,6 +34,7 @@ There's not much anyone (other than Image-Line) can do, really, other than one v
 - Repeat
 - Repeat *again* but this time drag the "Multiply" slider down to 150%
 - Done.
+  
 Fun, isn't it? [You should tell them just how much you enjoy it](https://www.image-line.com/contact)
 
 ## Credits
